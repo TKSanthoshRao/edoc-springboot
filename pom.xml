@@ -48,6 +48,19 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.9.3</version> <!-- or latest -->
+			<scope>test</scope>
+		</dependency>
+
 
 		<!-- Lombok (for less boilerplate) -->
 		<dependency>
@@ -66,6 +79,7 @@
 
 
 	<build>
+		<finalName>edoc-project</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
