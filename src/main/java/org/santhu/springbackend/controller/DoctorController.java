@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:9090")
 @RequestMapping("/api/doctors")
 //@CrossOrigin(origins = "*") // Update for security
 public class DoctorController {
