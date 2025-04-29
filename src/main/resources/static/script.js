@@ -87,7 +87,7 @@ async function generateDoctorCards() {
 
     try {
 
-        const res = await fetch("http://localhost:8080/api/doctors");
+        const res = await fetch("http://localhost:9090/api/doctors");
         if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
         }
